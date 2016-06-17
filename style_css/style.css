@@ -1,53 +1,50 @@
-.container{background-color: grey;}
+
 
 header{
-	height: 250px;
-margin: auto;
-	background-color: brown;
+	height: 125px;
+	margin: auto;
+	background-color: beige;
 }
 
-.col-md-2{background-color: blue;}
+	.titre {background-color: yellow;}
 
-.titre {background-color: yellow;}
-
-.soutitre{background-color: green;}
+	.soutitre{background-color: green;}
 
 h1, h2{text-align: center;}
 
 .rezo{
+	font-size : 35px;
 	margin : auto;
-	padding: 50px;
 	background-color: lightgreen;
-	width: 10%;
+	width: 50%;
 	height : 100px;
 }
 
-article{
-	height: 250px;
+.section_navigation{
+	width : 100%;
+	height: 80px;
+	background-color: cyan;}
 
+.bloc-droite img{
+	margin-top: 30px;
+	width : 90%;
+	height : 400px;
 }
 
-section{
-	width : 100%;
-	height: 100px;
-	background-color: pink;}
+
 
 footer{ 
-width : 100%;
+width : 95%;
 height: 50px;
-	background-color: red;
+background-color: red;
+
 }
 
 
  .carousel-inner > .item > img,.carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-
+      
+      width: 100%;
+padding-left: 25px;
   }
 
-.bloc-droite{
-	width: 100%;
-	border-top-color: black;
-	background-color : lightgreen;
-	height : 450px;
-}
+
