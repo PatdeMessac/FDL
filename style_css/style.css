@@ -1,4 +1,13 @@
-body{width :95%;}
+
+
+
+
+body {
+	background-image: url('images/img1.jpg');
+	width : 95%;
+  
+}
+
 
 header{
 	padding-top : 0px;
@@ -8,17 +17,26 @@ header{
 	background-color: beige;
 }
 
-	.titre {background-color: yellow;}
+	.titre {
+		background-image: url('images/img1.jpg');
+	}
 
 	.soutitre{background-color: green;}
 
 header h1, header h2{
+	font-family: 'Aclonica';
 	font-size: 50px;
-	font-color : blue;
-	font-family: "Courier New", Courier, monospace, "Times New Roman", Times, serif;
+	color : black;
 	padding-top : 0px;
 	margin-top: 0px;
 	text-align: center;}
+
+.col-md-2 h4{
+	background-image: url('images/img1.jpg');
+	font-family: 'Aclonica', 'Open Sans', Fallback, sans-serif;
+	font-size: 16px; 
+	color :blue;
+	text-align: justify;}
 
 header .col-md-3{
 	height :100px; 
