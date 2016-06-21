@@ -116,7 +116,7 @@ header .col-md-3 .ID{
 	/*Pour superposer les images, on leur attribue une position absolue dans un conteneur qui doit lui-même avoir une position relative.
 La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 	width : 100%;
-	height:700px;
+	height:650px;
 	/*background-image: url('images/img4.jpg');*/
 	background-color: #FDEDE8;
 	/*background-image: rgba(250, 250, 250, 0.2); L'opacite se regle ici */
@@ -136,7 +136,8 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
  .carousel-inner > .item > img,.carousel-inner > .item > a > img {
       
     width: 45%;
-	padding: 20px;
+    padding-top: 20px;
+	padding-bottom: 20px;
 	margin: auto;
   }
 
@@ -148,8 +149,8 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 
 .paragraphe_corps{
 	padding-top: 25px;
-	margin-bottom: 25px;
-	height : 700px;
+	
+	
 	/*background-image: url('images/12009_989212171147155_4747606539207326171_n.jpg');*/
 	/*background-attachment: fixed;*/	
 	}
@@ -174,28 +175,30 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 	/*margin-top: 30px;*/
 	width : 95%;
 	height : 700px;
+
 }
 
 .col-md-6 .img1 {
 
 	margin-top: 10px;
-	height : 420px;
+	height : 480px;
 	background-image: url('images/img2.jpg');
 }
 .col-md-6 .img2 {
 	margin-top: 10px;
-	height : 200px;
+	height : 240px;
 	background-image: url('images/img3.jpg');
 }
 .col-md-6 .img3 {
 	margin-top: 10px;
-	height : 200px;
+	height : 240px;
 	background-image: url('images/img4.jpg');
 }
 
 
 
 footer{ 
+	margin-top: 0px;
 	text-align: center;
 	width : 100%;
 	height: 40px;
