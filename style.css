@@ -15,22 +15,15 @@ margin-bottom: 10px;}
  	width: 200px;
 	border: ridge 5px #EBDDDA;
 	border-radius: 15px;
-<<<<<<< HEAD
-	margin-right: 20px;
-	margin-left: 20px;
-=======
+
 	margin-right: 25px;
 	margin-left: 25px;
->>>>>>> 511b49b8976575b5d184c54d61b7517aba89402c
 	color: green;
 	/*padding: 10px 50px 10px 20px;*/
 	padding-top: 10px;
 	background-color: #D6E7C6;
 }
 
-
-
-<<<<<<< HEAD
 
  #nav li a{
  	font-size: 18px;
@@ -41,8 +34,7 @@ color: green;
 padding: 10px 10px 10px 25px;
 }
 
-=======
->>>>>>> 1528e6b8528ee6af5176c1895e751ef11f2cb6de
+
 body {
 	width : 100%;
   overflow: hidden;
