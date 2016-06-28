@@ -1,24 +1,51 @@
-body{width :95%;}
+
+/*html {
+  background-image: url('images/img1.jpg');
+  background-size:100% auto;
+}
+
+*/
+/*
+body {
+	width : 95%;
+  
+}
+*/
 
 header{
 	padding-top : 0px;
 	margin-top: 0px;
 	height: 125px;
-	
 	background-color: beige;
 }
 
-	.titre {background-color: yellow;}
+.titre {
+    background-image: url('img1.jpg');
+    width :600px;
+    height: 600px;
+   
+	}
 
-	.soutitre{background-color: green;}
+	.soutitre{background-color: lightgreen;}
 
 header h1, header h2{
-	font-size: 50px;
-	font-color : blue;
-	font-family: "Courier New", Courier, monospace, "Times New Roman", Times, serif;
+	font-family: 'Aclonica';
+	color : black;
 	padding-top : 0px;
 	margin-top: 0px;
 	text-align: center;}
+
+header h1{
+	font-size: 50px;
+}
+header h2{font-size: 25px;}
+
+
+.col-md-2 h4{
+	font-family: 'Aclonica', 'Open Sans', Fallback, sans-serif;
+	font-size: 16px; 
+	color :blue;
+	text-align: justify;}
 
 header .col-md-3{
 	height :100px; 
@@ -52,7 +79,7 @@ header .col-md-3{
 footer{ 
 	text-align: center;
 width : 100%;
-height: 50px;
+height: 40px;
 background-color: red;
 
 }
@@ -60,8 +87,9 @@ background-color: red;
 
  .carousel-inner > .item > img,.carousel-inner > .item > a > img {
       
-      width: 50%;
-padding-left: 25px;
+      width: 60%;
+padding: 20px;
+margin: auto;
   }
 
 
