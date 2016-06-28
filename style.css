@@ -9,14 +9,14 @@ margin-bottom: 10px;}
 #nav li a{
 
 	text-align: center;
- 	font-size: 28px;
+ 	font-size: 20px;
  	text-shadow: 2px 2px 2px yellow;
  	height: 45px;
- 	width: 250px;
+ 	width: 200px;
 	border: ridge 5px #EBDDDA;
 	border-radius: 15px;
-	margin-right: 20px;
-	margin-left: 50px;
+	margin-right: 25px;
+	margin-left: 25px;
 	color: green;
 	/*padding: 10px 50px 10px 20px;*/
 	padding-top: 10px;
