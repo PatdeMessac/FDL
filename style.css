@@ -185,25 +185,25 @@ header .col-md-3 .ID{
 
 .bloc-droite{
 	margin : auto;
-	/*width : 95%;*/
-	height : 700px;
-	background-size: contain;
-	background-attachment: fixed;
+	width : 100%;
+	height : 500px;
+	
+	
 	background-color: #FDEDE8;
 }
 
 .col-md-6 .img1 {
-
 	margin-top: 10px;
-	height : 240px;
+	height : 280px;
 	width: 100%;
 	background-image: url('images/img2.jpg');
 	background-repeat: no-repeat;
+background-size: cover;
 }
 
 .col-md-6 .img2 {
 	margin-top: 10px;
-	height : 240px;
+	height : 320px;
 	width: 100%;
 	background-image: url('images/img3.jpg');
 	background-repeat: no-repeat;
@@ -211,7 +211,7 @@ header .col-md-3 .ID{
 
 .col-md-6 .img3 {
 	margin-top: 10px;
-	height : 240px;
+	height : 320px;
 	width: 100%;
 	background-image: url('images/img4.jpg');
 	background-repeat: no-repeat;
@@ -225,11 +225,9 @@ footer{
 	text-align: center;
 	width : 100%;
 	height: 70px;
-	
 	font-size: 20px;
  	text-shadow: 2px 2px 2px yellow;
- 	
-	border-radius: 15px;
+ 	border-radius: 15px;
 	background-color: #D6E7C6;
 
 }
