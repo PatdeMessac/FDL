@@ -1,9 +1,19 @@
 /*navbar ABDUL*/
+.navbar-default{
+	height: 60px;
+}
 
+<<<<<<< HEAD
 #nav {/*padding-left : 50px;*/
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
+=======
+#nav {
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 }
 
 
@@ -14,6 +24,7 @@
 	background-color: #D6E7C6;
 	text-align: center;
  	font-size: 20px;
+<<<<<<< HEAD
  	text-shadow: 2px 2px 1px grey;/*#E7DBDB, #1C0C4F*/
  	height: 45px;
  	width: 250px;
@@ -32,6 +43,26 @@
 body {
 	width : 100%;
     overflow: hidden;
+=======
+ 	text-shadow: 2px 2px 2px #bf40bf;
+ 	height: 45px;
+ 	width: 200px;
+	border: ridge 5px #EBDDDA;
+	border-radius: 15px;
+	margin-right: 25px;
+	margin-left: 25px;
+	color: green;
+	padding-top: 10px;
+	background-color: #D6E7C6;
+
+}
+
+
+
+body {
+	width : 100%;
+ 	overflow: hidden;
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 }
 
 
@@ -43,8 +74,12 @@ header{
 	background-attachment: fixed;
 }
 
+<<<<<<< HEAD
 
 	.soutitre{
+=======
+.soutitre{
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 	padding-bottom: 5px;
 	background-size: cover;
 }
@@ -59,6 +94,10 @@ header h1{
 	text-shadow: 2px 2px 5px white;
 	font-size: 50px;
 }
+header h1:hover{
+	 opacity:0.6;
+  color:#bf40bf;
+}
 
 header h2{
 	text-shadow: 2px 2px 5px grey;
@@ -67,16 +106,13 @@ header h2{
 }
 
 
-	
-
-
 header .col-md-3{
 
 	height :100px; 
 	background-size: cover;
 	background-attachment: fixed;
 	margin-top: 0 auto;
-	}
+}
 
 .rezo, .ID{
 	
@@ -86,7 +122,10 @@ header .col-md-3{
 	text-align: center;
 	font-size : 15px;
 	margin :auto;
+<<<<<<< HEAD
 	margin-top: 10px;
+=======
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 	border : 1px solid black;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius : 50px;
@@ -95,11 +134,19 @@ header .col-md-3{
 
 header .col-md-3 .rezo{
 
-	width : 140px;
+	width : 200px;
+	height: 100px;
 	background-color: #D6D5D3;
+}
+.rezo h6{
+	margin-top: 20px;
+	color : #1C0C4F;
+	font-size: 14px;
 }
 
 .rezo a{
+	margin-top: 15px;
+	padding-right: 10px;
 	width : 20px;
 	text-align: center;
 	height : 45px;
@@ -107,15 +154,21 @@ header .col-md-3 .rezo{
 	
 }
 
+.ID h6{
+	margin-top: 20px;
+	color : #1C0C4F;
+	font-size: 14px;
+}
 header .col-md-3 .ID{
 	margin-bottom: 20px;
-	width : 70%;
+	width : 200px;
+	height: 100px;
 	background-color: #D6D5D3;
 }
 
 .ID a{
 	text-align: center;
-	padding-left: 30px;
+	padding-left: 10px;
 	height : 40px;
 	color:black;
 }
@@ -131,7 +184,10 @@ header .col-md-3 .ID{
 
 
 .centrale{
+<<<<<<< HEAD
 	
+=======
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 	padding-top: 50px;
 	width : 100%;
 	background-color: #FDEDE8;
@@ -141,7 +197,7 @@ header .col-md-3 .ID{
 	background-size: cover;
 	}
 
-.centrale h5{/*juste la page en construction*/
+.centrale h5{
 	padding-top: 250px;
 	text-align: center;
 	font-family: 'Aclonica', 'Open Sans', sans-serif;
@@ -163,14 +219,11 @@ header .col-md-3 .ID{
 }
 
 .paragraphe_corps{
-	padding-top: 25px;
-	
-	
-	/*background-image: url('images/12009_989212171147155_4747606539207326171_n.jpg');*/
-	/*background-attachment: fixed;*/	
-	}
 
-.col-md-6 h4{ /*paragraphe dans la section corps, bloc droite*/
+	padding-top: 25px;	
+}
+
+.col-md-6 h4{ 
 	font-family: 'Aclonica', 'Open Sans', sans-serif;
 	font-size: 15px; 
 	text-shadow: 1px 1px 1px white;
@@ -190,6 +243,12 @@ header .col-md-3 .ID{
 	
 	
 	background-color: #FDEDE8;
+<<<<<<< HEAD
+=======
+	width : 95%;
+	height : 700px;
+
+>>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 }
 
 .col-md-6 .img1 {
