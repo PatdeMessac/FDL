@@ -1,68 +1,51 @@
 /*navbar ABDUL*/
+.navbar-default{
+	height: 60px;
+}
 
-#nav {/*padding-left : 50px;*/
+#nav {
 margin: auto;
 margin-top: 10px;
-margin-bottom: 10px;}
+margin-bottom: 10px;
+}
 
 
 #nav li a{
 
 	text-align: center;
  	font-size: 20px;
- 	text-shadow: 2px 2px 2px yellow;
+ 	text-shadow: 2px 2px 2px #bf40bf;
  	height: 45px;
  	width: 200px;
 	border: ridge 5px #EBDDDA;
 	border-radius: 15px;
-
 	margin-right: 25px;
 	margin-left: 25px;
 	color: green;
-	/*padding: 10px 50px 10px 20px;*/
 	padding-top: 10px;
 	background-color: #D6E7C6;
+
 }
 
-
- #nav li a{
- 	font-size: 18px;
- 	height: 45px;
- 	width: 200px;
-border: 2px;
-color: green;
-padding: 10px 10px 10px 25px;
-}
 
 
 body {
 	width : 100%;
-  overflow: hidden;
+ 	overflow: hidden;
 }
 
 
 header{
 	padding-top : 40px;
 	margin-top: 0px;
-	/*height: 125px;*/
 	background-color: #E7DBDB;
-	/*background-image: url('images/12009_989212171147155_4747606539207326171_n.jpg');*/
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-/*h1:not(.exclu){
-    background-image: url('img1.jpg');
-    width :100%;
-    height: 50px;
-opacity: 0.3;
-  
-	}*/
-
-	.soutitre{
-		padding-bottom: 5px;
-		/*background-image: url('images/12009_989212171147155_4747606539207326171_n.jpg');*/
-		background-size: cover;
+.soutitre{
+	padding-bottom: 5px;
+	background-size: cover;
 }
 
 header h1, header h2{
@@ -75,6 +58,10 @@ header h1{
 	text-shadow: 2px 2px 5px white;
 	font-size: 50px;
 }
+header h1:hover{
+	 opacity:0.6;
+  color:#bf40bf;
+}
 
 header h2{
 	text-shadow: 2px 2px 5px grey;
@@ -83,17 +70,13 @@ header h2{
 }
 
 
-	
-
-
 header .col-md-3{
 
 	height :100px; 
-	/*background-color: grey;*/
 	background-size: cover;
 	background-attachment: fixed;
 	margin-top: 0 auto;
-	}
+}
 
 .rezo, .ID{
 	
@@ -103,8 +86,6 @@ header .col-md-3{
 	text-align: center;
 	font-size : 15px;
 	margin :auto;
-	margin-top: 10px;
-	/*background-image: url('images/img4.jpg');*/
 	border : 1px solid black;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius : 50px;
@@ -113,11 +94,19 @@ header .col-md-3{
 
 header .col-md-3 .rezo{
 
-	width : 140px;
+	width : 200px;
+	height: 100px;
 	background-color: #D6D5D3;
+}
+.rezo h6{
+	margin-top: 20px;
+	color : #1C0C4F;
+	font-size: 14px;
 }
 
 .rezo a{
+	margin-top: 15px;
+	padding-right: 10px;
 	width : 20px;
 	text-align: center;
 	height : 45px;
@@ -125,15 +114,21 @@ header .col-md-3 .rezo{
 	
 }
 
+.ID h6{
+	margin-top: 20px;
+	color : #1C0C4F;
+	font-size: 14px;
+}
 header .col-md-3 .ID{
 	margin-bottom: 20px;
-	width : 70%;
+	width : 200px;
+	height: 100px;
 	background-color: #D6D5D3;
 }
 
 .ID a{
 	text-align: center;
-	padding-left: 30px;
+	padding-left: 10px;
 	height : 40px;
 	color:black;
 }
@@ -149,21 +144,16 @@ header .col-md-3 .ID{
 
 
 .centrale{
-	/*Pour superposer les images, on leur attribue une position absolue dans un conteneur qui doit lui-même avoir une position relative.
-La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 	padding-top: 50px;
 	width : 100%;
-	/*height:650px;*/
-	/*background-image: url('images/img4.jpg');*/
 	background-color: #FDEDE8;
-	/*background-image: rgba(250, 250, 250, 0.2); L'opacite se regle ici */
 	opacity : 1;
 	background-attachment: fixed;
 	background-repeat: no-repeat ;
 	background-size: cover;
 	}
 
-.centrale h5{/*juste la page en construction*/
+.centrale h5{
 	padding-top: 250px;
 	text-align: center;
 	font-family: 'Aclonica', 'Open Sans', sans-serif;
@@ -185,14 +175,11 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 }
 
 .paragraphe_corps{
-	padding-top: 25px;
-	
-	
-	/*background-image: url('images/12009_989212171147155_4747606539207326171_n.jpg');*/
-	/*background-attachment: fixed;*/	
-	}
 
-.col-md-6 h4{ /*paragraphe dans la section corps, bloc droite*/
+	padding-top: 25px;	
+}
+
+.col-md-6 h4{ 
 	font-family: 'Aclonica', 'Open Sans', sans-serif;
 	font-size: 17px; 
 	text-shadow: 1px 1px 1px white;
@@ -209,7 +196,6 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 	background-size: contain;
 	background-attachment: fixed;
 	background-color: #FDEDE8;
-	/*margin-top: 30px;*/
 	width : 95%;
 	height : 700px;
 
