@@ -235,10 +235,31 @@ La propriété z-index:10 place l'image concernée au-dessus de l'autre image.*/
 
 
 footer{ 
+	padding-top: 10px;
 	margin-top: 0px;
 	text-align: center;
 	width : 100%;
-	height: 40px;
-	background-color: #E7DBDB;
+	height: 70px;
+	
+	font-size: 20px;
+ 	text-shadow: 2px 2px 2px yellow;
+ 	
+	border-radius: 15px;
+	background-color: #D6E7C6;
 
+}
+
+footer a{ 
+	
+	color: green;
+	font-size: 25px;
+ 	text-shadow: 2px 2px 2px yellow;
+ 	letter-spacing: 2px;
+
+}
+
+#cr {font-size: small;
+	color: green;
+	font-size: 15px;
+ 	text-shadow: 2px 2px 2px yellow
 }
