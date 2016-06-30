@@ -4,10 +4,13 @@
 }
 
 
-#nav {/*padding-left : 50px;*/
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+#nav {
+	margin-top: 0 auto;
+	/*margin: auto;*/
+	/*padding-top: 50px;*/
+	/*margin-bottom: 10px;*/
+	/*padding: 0;
+	margin: 0;*/
 
 }
 
@@ -34,8 +37,7 @@
 
 body {
 	width : 100%;
-    overflow: hidden;
-
+    /*overflow: hidden;*/
 }
 
 header{
@@ -45,8 +47,6 @@ header{
 	background-size: cover;
 	background-attachment: fixed;
 }
-
-
 
 	.soutitre{
 	padding-bottom: 5px;
@@ -64,8 +64,8 @@ header h1{
 	font-size: 50px;
 }
 header h1:hover{
-	 opacity:0.6;
-  color:#bf40bf;
+	opacity:0.6;
+    color:#bf40bf;
 }
 
 header h2{
@@ -209,7 +209,7 @@ header .col-md-3 .ID{
 
 .col-md-6 .img1 {
 	margin-top: 10px;
-	height : 280px;
+	height : 240px;
 	width: 100%;
 	background-image: url('images/img2.jpg');
 	background-repeat: no-repeat;
@@ -218,7 +218,7 @@ background-size: cover;
 
 .col-md-6 .img2 {
 	margin-top: 10px;
-	height : 320px;
+	height : 290px;
 	width: 100%;
 	background-image: url('images/img3.jpg');
 	background-repeat: no-repeat;
@@ -226,7 +226,8 @@ background-size: cover;
 
 .col-md-6 .img3 {
 	margin-top: 10px;
-	height : 320px;
+	margin-bottom : 30px;
+	height : 290px;
 	width: 100%;
 	background-image: url('images/img4.jpg');
 	background-repeat: no-repeat;
@@ -248,16 +249,22 @@ footer{
 }
 
 footer a{ 
-	
-	color: green;
+	font-family: 'Aclonica';
+	color : #1C0C4F;
 	font-size: 25px;
  	text-shadow: 2px 2px 2px yellow;
  	letter-spacing: 2px;
 
 }
 
-#cr {font-size: small;
-	color: green;
+#cr {
+	font-family: 'Aclonica';
+	color : #1C0C4F;	
 	font-size: 15px;
- 	text-shadow: 2px 2px 2px yellow
+ 	text-shadow: 2px 2px 2px yellow;
 }
+
+
+
+
+
