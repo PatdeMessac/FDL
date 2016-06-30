@@ -57,15 +57,6 @@ body {
 
 }
 
-
-
-body {
-	width : 100%;
- 	overflow: hidden;
->>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
-}
-
-
 header{
 	padding-top : 40px;
 	margin-top: 0px;
@@ -122,10 +113,6 @@ header .col-md-3{
 	text-align: center;
 	font-size : 15px;
 	margin :auto;
-<<<<<<< HEAD
-	margin-top: 10px;
-=======
->>>>>>> e278a2bfcfec0f7f46fa438e38a55e21e7a751fc
 	border : 1px solid black;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius : 50px;
