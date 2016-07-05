@@ -1,159 +1,175 @@
-/*navbar ABDUL*/
+
+
+body {
+	width : 100%;
+}
+
 .navbar-default{
 	height: 60px;
-
 }
 
 
 #nav {
-
-	width:100%;
-	background-color: #E7DBDB;
-	margin-top: 5px;
-	text-align: center;
-	 padding-left: 10%;
-	 padding-right: 10%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
 #nav li a{
-	font-family: "aclonica";
-	color: #1C0C4F ;/*green*/
+
+	padding-top: 10px;
+	color: #1C0C4F ;
+	background-color: #D6E7C6;
 	text-align: center;
  	font-size: 20px;
- 	text-shadow: 2px 2px 1px white;/*#E7DBDB, #1C0C4F*/
+ 	text-shadow: 2px 2px 1px grey;
  	height: 45px;
  	width: 250px;
-	background-color: #D6E7C6;/*#D6E7C6*/
-	border-color: grey;
-    border-width: 2px 10px 2px 15px;
+	border-radius: 25px;
 	border-style: solid;
+	border-color: #E7DBDB;
+    border-width: 2px 10px 2px 15px;
 	border-bottom-right-radius: 0px;
 	border-top-left-radius: 0px;
-	border-top-right-radius:40px; 
-	border-bottom-left-radius: 40px;
-	
-}
 
-body {
-	width : 100%;
-    /*overflow: hidden;*/
-
+	margin-right: 25px;
+	margin-left: 25px;
 }
 
 header{
-width: 100%;
-	background-image: url(images/img3.jpg);
-opacity: 0.9;
-	padding-top : 20px;
+	height: 200px;
+	padding-top : 40px;
 	margin-top: 0px;
-	/*background-color: #E7DBDB;*/
+	background-color: #E7DBDB;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-	.soutitre{
+
+.soutitre{
+
 	padding-bottom: 5px;
 	background-size: cover;
 }
 
 header h1, header h2{
-	width:50%;
-	margin : auto;
+	text-shadow: 5px 2px 10px yellow;
 	font-family: 'Aclonica';
 	color : #1C0C4F;
 	text-align: center;
-	background-color: #E7DBDB;
-	opacity: 0.8;
 }
 
 header h1{
-	
-	text-shadow: 2px 2px 5px black;
+	text-shadow: 2px 2px 5px white;
 	font-size: 50px;
-overflow: hidden;
-	border-color: grey;
-    border-width: 1px 5px 1px 5px;
-	border-style: dotted;
-	 
-	 
-	border-top-right-radius:40px; 
-	border-bottom-left-radius: 40px;
 }
 header h1:hover{
 	opacity:0.6;
-    color:#bf40bf;
-}
-
-header h2{
-	text-shadow: 2px 2px 5px black;
-	margin-top: 10px;
-	font-size: 25px;
-	border-color: grey;
-    border-width: 1px 3px 1px 3px;
-	border-style: dotted;
-	border-top-right-radius:30px; 
-	border-bottom-left-radius: 30px;
+ 	color:#bf40bf;
 }
 
 
-header .col-md-3{ 
+header .col-md-3{
+
+	height :100px; 
 	background-size: cover;
 	background-attachment: fixed;
+	margin-top: 0 auto;
 }
+/* rezo left*/
 
+header .col-md-3 .rezo{
+
+	width : 200px;
+	height: 100px;
+	background-color: #D6D5D3;
+}
+.rezo a{
+	margin-top: 15px;
+	padding-right: 10px;
+	width : 20px;
+	text-align: center;
+	height : 45px;
+	color:black;	
+}
+.rezo h6{
+	margin-top: 20px;
+	color : #1C0C4F;
+	font-size: 14px;
+}
+/* rezo right*/
+
+header .col-md-3 .ID{
+	margin-bottom: 20px;
+	width : 200px;
+	height: 100px;
+	background-color: #D6D5D3;
+}
 .rezo, .ID{
 	
 	font-family: 'Aclonica', 'Open Sans', sans-serif;
 	color:black;
-	overflow: hidden;
 	text-align: center;
 	font-size : 15px;
 	margin :auto;
-	margin-top: 10px;
-	border : 1px dotted grey;
+	border : 1px solid black;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius : 50px;
 	
 }
-
-header .col-md-3 .rezo{
-	 width : 50%;
-	height: 80px;
+.dropdown{
+	margin-top: 30px;
+}
+.dropdown .btn{
+	color : #1C0C4F;
 	background-color: #D6D5D3;
 }
-.rezo h6{
-	 padding-bottom: 0px;
-	color : #1C0C4F;
-	font-size: 14px;
-}
-
-.rezo a{
-	
-	padding-top: 0px;
-	text-align: center;
-	 
-	color:black;
-	
-}
-
-.ID h6{
-	
-	color : #1C0C4F;
-	font-size: 14px;
-}
-header .col-md-3 .ID{
-	margin-bottom: 20px;
-	 width: 75%;
-	height: 80px;
+.dropdown ul {
+	width : 50px;
 	background-color: #D6D5D3;
+	border : 1px solid black;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius : 50px;
+}
+/* Navbar */
+
+.navbar-default{
+	height: 80px;
+	width: 100%;
+	text-align: center;
 }
 
-.ID a{
+#nav {
+	width: 100%;
 	text-align: center;
-	 
-	 
-	color:black;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+#nav li a{
+
+	text-align: center;
+ 	font-size: 20px;
+ 	text-shadow: 2px 2px 2px #bf40bf;
+ 	height: 45px;
+ 	width: 200px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius : 50px;
+	margin-right: 25px;
+	margin-left: 25px;
+	color: green;
+	padding-top: 10px;
+	background-color: #D6E7C6;
+
+}
+
+#nav li a:hover{
+	background-color: #D6E7C6;
+	opacity:0.6;
+ 	color:#bf40bf;
 }
 
 .section_navigation{
@@ -164,7 +180,7 @@ header .col-md-3 .ID{
 	background-color: #FDEDE8;
 }
 
-
+/*partie centre*/
 
 .centrale{
 	padding-top: 50px;
@@ -184,7 +200,7 @@ header .col-md-3 .ID{
 }
 
  .carousel-inner > .item > img,.carousel-inner > .item > a > img {
-    
+      
     width: 45%;
     padding-top: 20px;
 	padding-bottom: 20px;
@@ -220,13 +236,11 @@ header .col-md-3 .ID{
 	width : 100%;
 	height : 500px;
 	background-color: #FDEDE8;
-	width : 95%;
-	height : 700px;
 }
 
 .col-md-6 .img1 {
 	margin-top: 10px;
-	height : 240px;
+	height : 280px;
 	width: 100%;
 	background-image: url('images/img2.jpg');
 	background-repeat: no-repeat;
@@ -235,7 +249,7 @@ background-size: cover;
 
 .col-md-6 .img2 {
 	margin-top: 10px;
-	height : 290px;
+	height : 320px;
 	width: 100%;
 	background-image: url('images/img3.jpg');
 	background-repeat: no-repeat;
@@ -243,14 +257,13 @@ background-size: cover;
 
 .col-md-6 .img3 {
 	margin-top: 10px;
-	margin-bottom : 30px;
-	height : 290px;
+	height : 320px;
 	width: 100%;
 	background-image: url('images/img4.jpg');
 	background-repeat: no-repeat;
 }
 
-
+/*Footer*/
 
 footer{ 
 	padding-top: 10px;
@@ -262,30 +275,25 @@ footer{
  	text-shadow: 2px 2px 2px yellow;
  	border-radius: 15px;
 	background-color: #D6E7C6;
+
 }
 
-
 footer a{ 
-	font-family: 'Aclonica';
-	color : #1C0C4F;
+	
+	color: green;
 	font-size: 25px;
  	text-shadow: 2px 2px 2px yellow;
  	letter-spacing: 2px;
 
 }
 
-#cr {
-	font-family: 'Aclonica';
-	color : #1C0C4F;	
+#cr {font-size: small;
+	color: green;
 	font-size: 15px;
- 	text-shadow: 2px 2px 2px yellow;
+ 	text-shadow: 2px 2px 2px yellow
 }
 
+    Status API Training Shop Blog About 
 
-.construction{
-	background-color: lightgreen;
-height :900px;
-width : 100%;	
-}
-
+    © 2016 GitHub, Inc. Terms Privacy Security Contact Help 
 
