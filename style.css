@@ -45,20 +45,6 @@ header{
 	background-attachment: fixed;
 }
 
-
-.soutitre{
-
-	padding-bottom: 5px;
-	background-size: cover;
-}
-
-header h1, header h2{
-	text-shadow: 5px 2px 10px yellow;
-	font-family: 'Aclonica';
-	color : #1C0C4F;
-	text-align: center;
-}
-
 header h1{
 	text-shadow: 2px 2px 5px white;
 	font-size: 50px;
